@@ -3,6 +3,7 @@ body {
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
   background-color: #000c18;
+  position: relative;
 
 }
 
@@ -41,6 +42,13 @@ header {
   background: var(--background);
   color: var(--text);
 
+}
+
+main {
+  position: absolute!important;
+  top: 0!important;
+  left: 0!important;
+  right: 0!important;
 }
 
 .colonna {
@@ -248,7 +256,7 @@ header {
 }
 
 .home-more-stuff, .home-about, .home-intro  {
-  width: 100%;
+  width: 100%!important;
 }
 
 @media screen and (max-width: 992px) {
@@ -260,7 +268,7 @@ header {
   }
 
   .home-more-stuff, .home-about, .home-intro  {
-    width: 992px;
+    width: auto!important;
   }
 
   .home-intro {
@@ -286,7 +294,7 @@ header {
   }
 
   .home-more-stuff, .home-about, .home-intro  {
-    width: 600px;
+    width: auto!important;
   }
 
   .home-more-stuff a p {
