@@ -2,7 +2,7 @@ body {
 
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
-
+  background-color: #000c18;
 
 }
 
@@ -141,7 +141,6 @@ header {
   height: 100vh;
   font-family: sans-serif;
 
-
 }
 
 .home-about {
@@ -248,8 +247,8 @@ header {
 
 }
 
-.home-more-stuff {
-
+.home-more-stuff, .home-about, .home-intro  {
+  width: 100%;
 }
 
 @media screen and (max-width: 992px) {
@@ -258,6 +257,10 @@ header {
     width: 50vw;
     height: auto;
 
+  }
+
+  .home-more-stuff, .home-about, .home-intro  {
+    width: 992px;
   }
 
   .home-intro {
@@ -280,6 +283,10 @@ header {
     width: 80vw;
     height: auto;
 
+  }
+
+  .home-more-stuff, .home-about, .home-intro  {
+    width: 600px;
   }
 
   .home-more-stuff a p {
