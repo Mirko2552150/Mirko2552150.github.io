@@ -9,6 +9,7 @@ body {
 
 main {
   background-color: #000c18;
+  width: 100vw!important;
 }
 
 * {
@@ -278,8 +279,6 @@ main {
     justify-content: flex-end;
   }
 
-
-
   .home-more-stuff a p {
     font-size: 12px;
   }
@@ -288,7 +287,7 @@ main {
 
 @media screen and (max-width: 600px) {
   .more-stuff-grid img {
-    width: 80vw;
+    width: 50vw;
     height: auto;
 
   }
@@ -297,14 +296,14 @@ main {
     width: auto!important;
   }
 
-  .home-more-stuff a p {
-    font-size: 12px;
-  }
-
   .home-intro {
-    height: 80vw;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     justify-content: flex-end;
+  }
+
+  .home-more-stuff a p {
+    font-size: 12px;
   }
 }
