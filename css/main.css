@@ -5,11 +5,13 @@ body {
   background-color: #000c18;
   position: relative;
 
+
 }
 
 main {
   background-color: #000c18;
   width: 100vw!important;
+  overflow-x: hidden!important;
 }
 
 * {
@@ -209,6 +211,7 @@ main {
   grid-column: 3 / 4;
   -webkit-transform: translateX(50%);
   transform: translateX(50%);
+  overflow-x: hidden;
 }
 
 .from-left,
